@@ -1,8 +1,8 @@
 <main class="main">
   <div class="content">
     <app-navigation-bar></app-navigation-bar>
-      <h1>Hejsaaaa, {{ title() }}</h1>
-      <p>Congratulations! Your app is running. 🎉</p>
+      <h1> {{ title() }}</h1>
+      <app-course-list [courses]="courses"></app-course-list>
     </div>
 </main>
 
